@@ -1,0 +1,41 @@
+{
+  "identifier" : "Barkbudget",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "barkbudget_group",
+      "localizations" : [],
+      "name" : "Barkbudget Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "barkbudget_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Annual spending reports broken down by category with export",
+              "displayName" : "Barkbudget Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "barkbudget_pro_monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Barkbudget Pro Monthly",
+          "subscriptionGroupID" : "barkbudget_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
